@@ -6,6 +6,6 @@ class Rolemaster extends CI_Controller {
 
         public function index()
         {
-                $this->load->view('rolemaster_vw');
+                $this->load->view('rolesmaster_vw');
         }
 }
