@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class transaction_m extends CI_Model {
 
-    public function get_brandmaster()
+    public function get_transaction()
     {
         //select semua data transaction 
         $this->db->select('*');
