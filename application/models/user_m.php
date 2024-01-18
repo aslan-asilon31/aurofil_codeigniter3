@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class user_m extends CI_Model {
 
-    public function get_brandmaster()
+    public function get_user()
     {
         //select semua data user
         $this->db->select('*');
